@@ -1,0 +1,7 @@
+query {
+    authorById(id: 2) {
+        id
+        firstName
+        lastName
+    }
+}

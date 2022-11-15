@@ -1,0 +1,5 @@
+ mutation{
+   deleteBook(id:3){
+     title
+   }
+ }

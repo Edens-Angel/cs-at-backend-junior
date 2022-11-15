@@ -1,0 +1,5 @@
+ mutation {
+   addAuthor(authorInput: {firstName: "Ana", lastName: "Carreon", dateOfBirth: "14-09-2002", bookIds: [1]}) {
+     firstName
+   }
+ }

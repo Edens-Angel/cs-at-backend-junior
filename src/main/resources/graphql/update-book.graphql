@@ -1,0 +1,5 @@
+ mutation {
+   updateBook(id: 3, bookInput: {title: "How to get hired at cs-at"}) {
+     title
+   }
+ }

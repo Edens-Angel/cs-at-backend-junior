@@ -1,0 +1,6 @@
+ mutation {
+   addBook(bookInput: {title: "newBook", authorIds: [2], genre: FICTION}) {
+     id
+     title
+   }
+ }
